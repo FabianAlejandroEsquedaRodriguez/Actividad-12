@@ -54,3 +54,11 @@ void ArregloDinamico::expandir(){
     arreglo = nuevo;//Copiar las direcciones de memoria del primer arreglo hacia el nuevo, porque son punteros
     tam += MAX;//El tamaño ahora es el tamaño + 8, que vale la variable MAX  
 }
+
+// void ArregloDinamico::setString(const string &st){
+//     this->st = st;
+// }
+
+// string ArregloDinamico::getString(){
+//     return st;
+// }
